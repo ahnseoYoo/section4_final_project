@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.todo_component_wrapper {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    width: 700px;
+    margin: 20px;
+}
+
+.todo_wrapper {
+    border: 1px solid green;
+    margin: 50px;
+}
+
+.textContent {
+    flex-grow: 1;
+}
+
+.button_wrapper {
+    display: flex;
+    flex-direction: column;
+}
